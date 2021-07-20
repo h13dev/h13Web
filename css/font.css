@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'crushine';
+    src: url('/font/crushine.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'noirProRegular';
+    src: url('/font/noirProRegular.woff') format('woff');
+    src: url('/font/noirProRegular.woff2') format('woff2');
+}

@@ -1,0 +1,99 @@
+header {
+    position: absolute;
+    background-color: #333333;
+    color: #cccccc;
+    height: 45px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+div.main {
+    width: 250px;
+	height: 250px;
+	background-color: limegreen;
+
+    position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+  	
+	margin: auto;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.ml1 {
+    position: relative;
+    font-weight: 900;
+    font-size: 4.5em;
+    font-family: "Inter", "Source Sans Pro","Helvetica Neue", Arial, sans-serif;
+}
+
+.ml1 .letters {
+    position: absolute;
+    margin: auto;
+    top: 0.3em;
+    opacity: 0;
+    left: 0;
+    right: 0;
+}
+
+.ml1 .name {
+    font-family: 'crushine';
+    position: absolute;
+    margin: auto;
+    top: 0.3em;
+    opacity: 0;
+    left: 0;
+    right: 0;
+}
+
+.ml2 {
+    font-family: 'noirProRegular';
+    position: absolute;
+    color: #333333;
+    bottom: 25px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 2em;
+}
+
+.ml2 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.15em;
+    line-height: 1em;
+}
+
+.ml2 .line {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 3px;
+    width: 100%;
+    background-color: #402d2d;
+    transform-origin: 0.5 0;
+}
+
+.ml2 .commat { 
+    font-family: 'noirProRegular';
+    font-weight: 400;
+    width: 1em;
+    margin-right: -0.2em;
+    margin-left: -0.3em;
+}
+
+.ml2 .letters {
+    display: inline-block;
+    opacity: 0;
+}
