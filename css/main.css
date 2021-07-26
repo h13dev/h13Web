@@ -14,7 +14,7 @@ header {
 div.main {
     width: 250px;
 	height: 250px;
-	background-color: limegreen;
+	background-color: #00FF00;
 
     position: absolute;
 	top:0;
