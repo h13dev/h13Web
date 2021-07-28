@@ -1,3 +1,8 @@
+body {
+    /*background-image: url("/assets/city2.jpg");*/
+    background-size: 100%;
+}
+
 header {
     position: absolute;
     background-color: #333333;
@@ -9,12 +14,79 @@ header {
     right: 0;
     padding-left: 10px;
     padding-top: 10px;
+    opacity: 0;
+}
+
+a {
+    color: #ffffff;
+}
+
+a:hover {
+    color: #00ff00;
+    transition: color 1.3s ease-out;
+}
+
+a.logo {
+    position: absolute;
+    font-weight: 750;
+    font-size: 2.5em;
+    font-family: "crushine";
+    margin-top: -7px;
+    margin-left: -5px;
+    color: #00ff00;
+    text-decoration: none;
+}
+
+a.logo:hover {
+    color: #cccccc;
+}
+
+ul.nav {
+    position: absolute;
+    list-style-type: none;
+    overflow: hidden;
+    top: 0px;
+    left: 50px;
+}
+
+li.nav {
+    float: left;
+    padding-right: 25px;
+}
+
+#link1 {
+    opacity: 0;
+}
+
+#link2 {
+    opacity: 0;
+}
+
+#link3 {
+    opacity: 0;
+}
+
+#link4 {
+    opacity: 0;
+}
+
+a.nav {
+    text-decoration: none;
+    color: #cccccc;
+    font-family: "Inter-Regular";
+    font-size: 1.1em;
+    font-weight: 500;
+    transition: color 1.3s ease-out;
+}
+
+a.nav:hover {
+    color:#00ff00;
 }
 
 div.main {
     width: 250px;
 	height: 250px;
-	background-color: #00FF00;
+	background-color: #00ff00;
 
     position: absolute;
 	top:0;
@@ -25,6 +97,18 @@ div.main {
 	margin: auto;
     padding-top: 20px;
     text-align: center;
+}
+
+div.logo {
+    width: 32px;
+	height: 32px;
+
+    position: absolute;
+	top: 10px;
+	bottom: 0;
+	left: 20px;
+	right: 0;
+    opacity: 0;
 }
 
 .ml1 {
@@ -81,7 +165,7 @@ div.main {
     margin: auto;
     height: 3px;
     width: 100%;
-    background-color: #402d2d;
+    background-color: #ffffff;
     transform-origin: 0.5 0;
 }
 

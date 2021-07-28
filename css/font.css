@@ -8,3 +8,14 @@
     src: url('/font/noirProRegular.woff') format('woff');
     src: url('/font/noirProRegular.woff2') format('woff2');
 }
+
+@font-face {
+    font-family: 'RNSSanzNormal';
+    src: url('/font/RNSSanz-Normal.woff') format('woff');
+    src: url('/font/RNSSanz-Normal.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Inter-Regular';
+    src: url('/font/Inter-Regular.ttf') format('truetype');
+}

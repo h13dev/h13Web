@@ -1,4 +1,11 @@
 function animation() {
+    var main = document.getElementById("main");
+    var logo = document.getElementById("logo");
+    var header = document.getElementById("header");
+    var link1 = document.getElementById("link1");
+    var link2 = document.getElementById("link2");
+    var link3 = document.getElementById("link3");
+
     var ml1 = {};
     ml1.opacityIn = [0,1];
     ml1.scaleIn = [0.2, 1];
@@ -95,5 +102,46 @@ function animation() {
         duration: 1000,
         easing: "easeOutExpo",
         delay: 1000
+    }).add({
+        targets: '.ml1',
+        opacity: 0,
+        duration: 1000,
+        easing: "easeOutExpo",
+        delay: 1000
+    }).add({
+        targets: main,
+        opacity: 0,
+        duration: 1000,
+        easing: "easeOutExpo"
+    }).add({
+        targets: header,
+        opacity: 1,
+        duration: 1000,
+        easing: "easeInExpo"
+    }).add({
+        targets: logo,
+        opacity: 1,
+        duration: 1500,
+        easing: "easeInExpo"
+    }).add({
+        targets: link1,
+        opacity: 1,
+        duration: 1000,
+        easing: "easeInExpo"
+    }).add({
+        targets: link2,
+        opacity: 1,
+        duration: 1000,
+        easing: "easeInExpo"
+    }).add({
+        targets: link3,
+        opacity: 1,
+        duration: 1000,
+        easing: "easeInExpo"
+    }).add({
+        targets: link4,
+        opacity: 1,
+        duration: 1000,
+        easing: "easeInExpo"
     });
 }
